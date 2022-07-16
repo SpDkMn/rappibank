@@ -1,0 +1,30 @@
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\bin\Debug\net6.0\POS.exe
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\bin\Debug\net6.0\POS.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\bin\Debug\net6.0\POS.runtimeconfig.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\bin\Debug\net6.0\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\bin\Debug\net6.0\POS.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\refint\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\POS.genruntimeconfig.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POS\obj\Debug\net6.0\ref\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\bin\Debug\net6.0\POS.exe
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\bin\Debug\net6.0\POS.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\bin\Debug\net6.0\POS.runtimeconfig.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\bin\Debug\net6.0\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\bin\Debug\net6.0\POS.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\refint\POS.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\POS.genruntimeconfig.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\POS\obj\Debug\net6.0\ref\POS.dll

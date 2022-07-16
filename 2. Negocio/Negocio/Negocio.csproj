@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Autenticacion\Autenticacion.csproj" />
+    <ProjectReference Include="..\..\3. Contextos\Contexto\Contexto.csproj" />
+    <ProjectReference Include="..\..\4. EntidadesBD\Entidades\Entidades.csproj" />
+    <ProjectReference Include="..\IntefacesNegocios\IntefacesNegocios.csproj" />
+  </ItemGroup>
+
+</Project>

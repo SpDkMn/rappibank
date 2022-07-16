@@ -1,0 +1,58 @@
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\appsettings.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\APIPOSV1.exe
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\APIPOSV1.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\APIPOSV1.runtimeconfig.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\APIPOSV1.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\bin\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\scopedcss\bundle\APIPOSV1.styles.css
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.CopyComplete
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\refint\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\APIPOSV1.genruntimeconfig.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\APIPOSV1\obj\Debug\net6.0\ref\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\appsettings.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\APIPOSV1.exe
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\APIPOSV1.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\APIPOSV1.runtimeconfig.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\APIPOSV1.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\bin\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\scopedcss\bundle\APIPOSV1.styles.css
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.csproj.CopyComplete
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\refint\APIPOSV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\APIPOSV1.genruntimeconfig.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\APIPOSV1\obj\Debug\net6.0\ref\APIPOSV1.dll

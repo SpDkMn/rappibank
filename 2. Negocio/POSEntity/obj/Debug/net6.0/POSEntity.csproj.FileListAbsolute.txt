@@ -1,0 +1,24 @@
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\bin\Debug\net6.0\POSEntity.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\bin\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\bin\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\refint\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\POSEntity\obj\Debug\net6.0\ref\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\bin\Debug\net6.0\POSEntity.deps.json
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\bin\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\bin\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.csproj.AssemblyReference.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.AssemblyInfoInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.AssemblyInfo.cs
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.csproj.CoreCompileInputs.cache
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\refint\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\POSEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\POSEntity\obj\Debug\net6.0\ref\POSEntity.dll
