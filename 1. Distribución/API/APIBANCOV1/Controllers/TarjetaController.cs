@@ -1,9 +1,7 @@
-﻿using Entidades;
+﻿using BancoEntity;
 using IntefacesNegocios;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace APIBANCOV1.Controllers
 {
@@ -33,7 +31,7 @@ namespace APIBANCOV1.Controllers
 
         // POST api/<TarjetaController>
         [HttpPost]
-        public IActionResult Post([FromBody] Tarjeta Tarjeta)
+        public IActionResult Post([FromBody] TarjetaBE Tarjeta)
         {
             TarjetaService.Save(Tarjeta);
             return Ok();
@@ -41,7 +39,7 @@ namespace APIBANCOV1.Controllers
 
         // PUT api/<TarjetaController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(Guid id, [FromBody] Tarjeta Tarjeta)
+        public IActionResult Put(Guid id, [FromBody] TarjetaBE Tarjeta)
         {
             TarjetaService.Update(id, Tarjeta);
             return Ok();

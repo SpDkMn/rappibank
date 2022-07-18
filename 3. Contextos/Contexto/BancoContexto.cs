@@ -5,22 +5,23 @@ namespace Contexto
 {
     public class BancoContexto : DbContext
     {
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Cuenta> Cuentas { get; set; }
-        public DbSet<Tarjeta> Tarjetas { get; set; }
-        public DbSet<Movimiento> Movimientos { get; set; }
-        public DbSet<Auth> Auths { get; set; }
+        public DbSet<UsuarioEntity> Usuarios { get; set; }
+        public DbSet<CuentaEntity> Cuentas { get; set; }
+        public DbSet<TarjetaEntity> Tarjetas { get; set; }
+        public DbSet<MovimientoEntity> Movimientos { get; set; }
+        public DbSet<AuthEntity> Auths { get; set; }
         /*protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlServer("Server=PF364CTJ; Database=BancoRappi;User Id=sa; Password=1234Dipe");
+                //options.UseSqlServer("Server=PF364CTJ; Database=BancoRappi;User Id=sa; Password=1234Dipe");
+                options.UseSqlServer("Server=tcp:arquitecturaorientadaalservicio.database.windows.net,1433;Initial Catalog=BD;Persist Security Info=False;User ID=arquitecturaorientadaalservicio;Password=1234Dipe##;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }*/
         public BancoContexto(DbContextOptions<BancoContexto> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Usuario>(usuario =>
+            modelBuilder.Entity<UsuarioEntity>(usuario =>
             {
                 usuario.ToTable("usuario");
                 usuario.HasKey(p => p.UsuarioId);
@@ -30,7 +31,7 @@ namespace Contexto
                 usuario.Property(p => p.ContraseñaWeb).IsRequired().HasMaxLength(150);
                 usuario.HasMany(p => p.Cuentas).WithOne(p => p.Usuario).HasForeignKey(p => p.UsuarioId);
             });
-            modelBuilder.Entity<Cuenta>(cuenta =>
+            modelBuilder.Entity<CuentaEntity>(cuenta =>
             {
                 cuenta.ToTable("cuenta");
                 cuenta.HasKey(p => p.CuentaId);
@@ -41,7 +42,7 @@ namespace Contexto
                 cuenta.Property(p => p.Linea);
                 cuenta.Property(p => p.Saldo);
             });
-            modelBuilder.Entity<Tarjeta>(tarjeta =>
+            modelBuilder.Entity<TarjetaEntity>(tarjeta =>
             {
                 tarjeta.ToTable("tarjeta");
                 tarjeta.HasKey(p => p.TarjetaId);
@@ -53,7 +54,7 @@ namespace Contexto
                 tarjeta.Property(p => p.CVV).IsRequired().HasMaxLength(4);
                 tarjeta.Property(p => p.PIN).IsRequired().HasMaxLength(4);
             });
-            modelBuilder.Entity<Movimiento>(movimiento =>
+            modelBuilder.Entity<MovimientoEntity>(movimiento =>
             {
                 movimiento.ToTable("movimiento");
                 movimiento.HasKey(p => p.MovimientoId);
@@ -61,7 +62,7 @@ namespace Contexto
                 movimiento.Property(p => p.Monto).IsRequired().HasMaxLength(150);
                 movimiento.Property(p => p.Origen).IsRequired();
             });
-            modelBuilder.Entity<Auth>(auth =>
+            modelBuilder.Entity<AuthEntity>(auth =>
             {
                 auth.ToTable("auth");
                 auth.HasKey(p => p.AuthId);

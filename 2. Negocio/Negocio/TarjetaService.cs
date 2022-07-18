@@ -1,4 +1,5 @@
-﻿using Contexto;
+﻿using BancoEntity;
+using Contexto;
 using Entidades;
 using IntefacesNegocios;
 
@@ -11,30 +12,38 @@ namespace Negocio
         {
             contexto = contextoBD;
         }
-        public IEnumerable<Tarjeta> Get()
+        public IEnumerable<TarjetaEntity> Get()
         {
             return contexto.Tarjetas;
         }
-        public async Task Save(Tarjeta Tarjeta)
+        public async Task Save(TarjetaBE Tarjeta)
         {
-            var TarjetaExistente = contexto.Tarjetas.Where(p => p.CuentaId == Tarjeta.CuentaId).FirstOrDefault();
-            if (TarjetaExistente == null ) 
+            TarjetaEntity NuevaTarjeta = new TarjetaEntity();
+            NuevaTarjeta.TarjetaId = new Guid();
+            NuevaTarjeta.CuentaId = Tarjeta.CuentaId;
+            NuevaTarjeta.UsuarioId = Tarjeta.UsuarioId;
+            NuevaTarjeta.NumeroTarjeta = Tarjeta.NumeroTarjeta;
+            NuevaTarjeta.Mes = Tarjeta.Mes;
+            NuevaTarjeta.Año = Tarjeta.Año;
+            NuevaTarjeta.CVV = Tarjeta.CVV;
+            NuevaTarjeta.PIN = Tarjeta.PIN;
+            var CuentaExistente = contexto.Cuentas.Where(p => p.CuentaId == NuevaTarjeta.CuentaId).FirstOrDefault();
+            var UsuarioExistente = contexto.Usuarios.Where(p => p.UsuarioId == NuevaTarjeta.UsuarioId).FirstOrDefault();
+            if (CuentaExistente != null && UsuarioExistente != null) 
             {
-                Tarjeta.TarjetaId = new Guid();
-                contexto.Add(Tarjeta);
+                contexto.Add(NuevaTarjeta);
                 await contexto.SaveChangesAsync();
             }
             
         }
-        public Tarjeta? GetTarjeta(Guid id)
+        public TarjetaEntity? GetTarjeta(Guid id)
         {
             var TarjetaActual = contexto.Tarjetas.Find(id);
             return TarjetaActual;
         }
-        public async Task Update(Guid id, Tarjeta Tarjeta)
+        public async Task Update(Guid id, TarjetaBE Tarjeta)
         {
             var TarjetaActual = contexto.Tarjetas.Find(id);
-
             if (TarjetaActual != null)
             {
                 TarjetaActual.CuentaId = Tarjeta.CuentaId;
@@ -44,7 +53,6 @@ namespace Negocio
                 TarjetaActual.Año = Tarjeta.Año;
                 TarjetaActual.CVV = Tarjeta.CVV;
                 TarjetaActual.PIN = Tarjeta.PIN;
-
                 await contexto.SaveChangesAsync();
             }
         }

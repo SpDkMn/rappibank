@@ -1,9 +1,7 @@
-﻿using Entidades;
+﻿using BancoEntity;
 using IntefacesNegocios;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace APIBANCOV1.Controllers
 {
@@ -33,7 +31,7 @@ namespace APIBANCOV1.Controllers
 
         // POST api/<CuentaController>
         [HttpPost]
-        public IActionResult Post([FromBody] Cuenta Cuenta)
+        public IActionResult Post([FromBody] CuentaBE Cuenta)
         {
             CuentaService.Save(Cuenta);
             return Ok();
@@ -41,7 +39,7 @@ namespace APIBANCOV1.Controllers
 
         // PUT api/<CuentaController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(Guid id, [FromBody] Cuenta Cuenta)
+        public IActionResult Put(Guid id, [FromBody] CuentaBE Cuenta)
         {
             CuentaService.Update(id, Cuenta);
             return Ok();

@@ -22,7 +22,7 @@ namespace Contexto.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Entidades.Auth", b =>
+            modelBuilder.Entity("Entidades.AuthEntity", b =>
                 {
                     b.Property<Guid>("AuthId")
                         .ValueGeneratedOnAdd()
@@ -43,7 +43,7 @@ namespace Contexto.Migrations
                     b.ToTable("auth", (string)null);
                 });
 
-            modelBuilder.Entity("Entidades.Cuenta", b =>
+            modelBuilder.Entity("Entidades.CuentaEntity", b =>
                 {
                     b.Property<Guid>("CuentaId")
                         .ValueGeneratedOnAdd()
@@ -77,7 +77,7 @@ namespace Contexto.Migrations
                     b.ToTable("cuenta", (string)null);
                 });
 
-            modelBuilder.Entity("Entidades.Movimiento", b =>
+            modelBuilder.Entity("Entidades.MovimientoEntity", b =>
                 {
                     b.Property<Guid>("MovimientoId")
                         .ValueGeneratedOnAdd()
@@ -100,7 +100,7 @@ namespace Contexto.Migrations
                     b.ToTable("movimiento", (string)null);
                 });
 
-            modelBuilder.Entity("Entidades.Tarjeta", b =>
+            modelBuilder.Entity("Entidades.TarjetaEntity", b =>
                 {
                     b.Property<Guid>("TarjetaId")
                         .ValueGeneratedOnAdd()
@@ -143,7 +143,7 @@ namespace Contexto.Migrations
                     b.ToTable("tarjeta", (string)null);
                 });
 
-            modelBuilder.Entity("Entidades.Usuario", b =>
+            modelBuilder.Entity("Entidades.UsuarioEntity", b =>
                 {
                     b.Property<Guid>("UsuarioId")
                         .ValueGeneratedOnAdd()
@@ -173,9 +173,9 @@ namespace Contexto.Migrations
                     b.ToTable("usuario", (string)null);
                 });
 
-            modelBuilder.Entity("Entidades.Cuenta", b =>
+            modelBuilder.Entity("Entidades.CuentaEntity", b =>
                 {
-                    b.HasOne("Entidades.Usuario", "Usuario")
+                    b.HasOne("Entidades.UsuarioEntity", "Usuario")
                         .WithMany("Cuentas")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -184,9 +184,9 @@ namespace Contexto.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("Entidades.Movimiento", b =>
+            modelBuilder.Entity("Entidades.MovimientoEntity", b =>
                 {
-                    b.HasOne("Entidades.Cuenta", "Cuenta")
+                    b.HasOne("Entidades.CuentaEntity", "Cuenta")
                         .WithMany("Movimientos")
                         .HasForeignKey("CuentaId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -195,15 +195,15 @@ namespace Contexto.Migrations
                     b.Navigation("Cuenta");
                 });
 
-            modelBuilder.Entity("Entidades.Tarjeta", b =>
+            modelBuilder.Entity("Entidades.TarjetaEntity", b =>
                 {
-                    b.HasOne("Entidades.Cuenta", "Cuenta")
+                    b.HasOne("Entidades.CuentaEntity", "Cuenta")
                         .WithOne("Tarjeta")
-                        .HasForeignKey("Entidades.Tarjeta", "CuentaId")
+                        .HasForeignKey("Entidades.TarjetaEntity", "CuentaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Entidades.Usuario", "Usuario")
+                    b.HasOne("Entidades.UsuarioEntity", "Usuario")
                         .WithMany("Tarjetas")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -214,14 +214,14 @@ namespace Contexto.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("Entidades.Cuenta", b =>
+            modelBuilder.Entity("Entidades.CuentaEntity", b =>
                 {
                     b.Navigation("Movimientos");
 
                     b.Navigation("Tarjeta");
                 });
 
-            modelBuilder.Entity("Entidades.Usuario", b =>
+            modelBuilder.Entity("Entidades.UsuarioEntity", b =>
                 {
                     b.Navigation("Cuentas");
 

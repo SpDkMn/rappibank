@@ -697,6 +697,16 @@
           "bin/placeholder/Autenticacion.dll": {}
         }
       },
+      "BancoEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BancoEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BancoEntity.dll": {}
+        }
+      },
       "Contexto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -726,6 +736,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BancoEntity": "1.0.0",
           "Entidades": "1.0.0"
         },
         "compile": {
@@ -2073,6 +2084,11 @@
       "path": "../../../2. Negocio/Autenticacion/Autenticacion.csproj",
       "msbuildProject": "../../../2. Negocio/Autenticacion/Autenticacion.csproj"
     },
+    "BancoEntity/1.0.0": {
+      "type": "project",
+      "path": "../../../2. Negocio/BancoEntity/BancoEntity.csproj",
+      "msbuildProject": "../../../2. Negocio/BancoEntity/BancoEntity.csproj"
+    },
     "Contexto/1.0.0": {
       "type": "project",
       "path": "../../../3. Contextos/Contexto/Contexto.csproj",
@@ -2096,6 +2112,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BancoEntity >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.6",
       "Negocio >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.1"
@@ -2133,6 +2150,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj": {
+              "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj"
+            },
             "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\Negocio\\Negocio.csproj": {
               "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\Negocio\\Negocio.csproj"
             }

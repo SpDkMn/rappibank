@@ -1,13 +1,14 @@
-﻿using Entidades;
+﻿using BancoEntity;
+using Entidades;
 
 namespace IntefacesNegocios
 {
     public interface IUsuarioService
     {
-        IEnumerable<Usuario> Get();
-        Usuario? GetUsuario(Guid id);
-        Task Save(Usuario Usuario);
-        Task Update(Guid id, Usuario Usuario);
+        IEnumerable<UsuarioEntity> Get();
+        UsuarioEntity? GetUsuario(Guid id);
+        Task Save(UsuarioBE Usuario);
+        Task Update(Guid id, UsuarioBE Usuario);
         Task Delete(Guid id);
     }
 }

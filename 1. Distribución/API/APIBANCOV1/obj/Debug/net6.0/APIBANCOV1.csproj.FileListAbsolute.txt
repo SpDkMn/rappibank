@@ -138,3 +138,5 @@ C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\Proyect
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\API\APIBANCOV1\obj\Debug\net6.0\APIBANCOV1.pdb
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\API\APIBANCOV1\obj\Debug\net6.0\APIBANCOV1.genruntimeconfig.cache
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\API\APIBANCOV1\obj\Debug\net6.0\ref\APIBANCOV1.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\API\APIBANCOV1\bin\Debug\net6.0\BancoEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\1. Distribución\API\APIBANCOV1\bin\Debug\net6.0\BancoEntity.pdb

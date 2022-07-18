@@ -1,13 +1,14 @@
-﻿using Entidades;
+﻿using BancoEntity;
+using Entidades;
 
 namespace IntefacesNegocios
 {
     public interface ITarjetaService
     {
-        IEnumerable<Tarjeta> Get();
-        Tarjeta? GetTarjeta(Guid id);
-        Task Save(Tarjeta Tarjeta);
-        Task Update(Guid id, Tarjeta Tarjeta);
+        IEnumerable<TarjetaEntity> Get();
+        TarjetaEntity? GetTarjeta(Guid id);
+        Task Save(TarjetaBE Tarjeta);
+        Task Update(Guid id, TarjetaBE Tarjeta);
         Task Delete(Guid id);
     }
 }

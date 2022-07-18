@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BancoEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BancoEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BancoEntity.dll": {}
+        }
+      },
       "Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "BancoEntity/1.0.0": {
+      "type": "project",
+      "path": "../BancoEntity/BancoEntity.csproj",
+      "msbuildProject": "../BancoEntity/BancoEntity.csproj"
+    },
     "Entidades/1.0.0": {
       "type": "project",
       "path": "../../4. EntidadesBD/Entidades/Entidades.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BancoEntity >= 1.0.0",
       "Entidades >= 1.0.0"
     ]
   },
@@ -58,6 +74,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj": {
+              "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj"
+            },
             "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj": {
               "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj"
             }

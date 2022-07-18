@@ -17,7 +17,7 @@ namespace Negocio
             this.contexto = contexto;
         }
 
-        public Auth? validateAuth(string usuario, string pass)
+        public AuthEntity? validateAuth(string usuario, string pass)
         {
             if (usuario == null) return null;
             if (pass == null) return null;

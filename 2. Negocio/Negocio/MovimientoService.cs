@@ -1,4 +1,5 @@
-﻿using Contexto;
+﻿using BancoEntity;
+using Contexto;
 using Entidades;
 using IntefacesNegocios;
 
@@ -11,39 +12,47 @@ namespace Negocio
         {
             contexto = contextoBD;
         }
-        public IEnumerable<Movimiento> Get()
+        public IEnumerable<MovimientoEntity> Get()
         {
             return contexto.Movimientos;
         }
-        public async Task Save(Movimiento Movimiento)
+        public async Task Save(MovimientoBE Movimiento)
         {
-            var cuentaActual = contexto.Cuentas.Where(p => p.CuentaId == Movimiento.CuentaId).FirstOrDefault();
+            MovimientoEntity NuevoMovimiento = new MovimientoEntity();
+            NuevoMovimiento.MovimientoId = new Guid();
+            NuevoMovimiento.Monto = Movimiento.Monto;
+            NuevoMovimiento.Origen = (Entidades.Origen)Movimiento.Origen;
+            NuevoMovimiento.CuentaId = Movimiento.CuentaId;
+
+            var cuentaActual = contexto.Cuentas.Where(p => p.CuentaId == NuevoMovimiento.CuentaId)
+                .FirstOrDefault();
             if( cuentaActual != null)
             {
-                if( (Movimiento.Monto < 0 && cuentaActual.Saldo >= Movimiento.Monto*(-1)) || Movimiento.Monto > 0 )
+                if( 
+                    (NuevoMovimiento.Monto < 0 && cuentaActual.Saldo >= NuevoMovimiento.Monto*(-1)) || 
+                    Movimiento.Monto > 0 
+                )
                 {
-                    cuentaActual.Saldo += Movimiento.Monto;
-                    Movimiento.MovimientoId = new Guid();
-                    contexto.Add(Movimiento);
+                    cuentaActual.Saldo += NuevoMovimiento.Monto;
+                    contexto.Add(NuevoMovimiento);
                 }
             }
             await contexto.SaveChangesAsync();
         }
-        public Movimiento? GetMovimiento(Guid id)
+        public MovimientoEntity? GetMovimiento(Guid id)
         {
             var MovimientoActual = contexto.Movimientos.Find(id);
             return MovimientoActual;
         }
-        public async Task Update(Guid id, Movimiento Movimiento)
+        public async Task Update(Guid id, MovimientoBE Movimiento)
         {
             var MovimientoActual = contexto.Movimientos.Find(id);
 
             if (MovimientoActual != null)
             {
-                MovimientoActual.CuentaId = Movimiento.CuentaId;
                 MovimientoActual.Monto = Movimiento.Monto;
-                MovimientoActual.Origen = Movimiento.Origen;
-
+                MovimientoActual.Origen = (Entidades.Origen)Movimiento.Origen;
+                MovimientoActual.CuentaId = Movimiento.CuentaId;
                 await contexto.SaveChangesAsync();
             }
         }

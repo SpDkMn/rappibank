@@ -611,6 +611,16 @@
           "bin/placeholder/Autenticacion.dll": {}
         }
       },
+      "BancoEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BancoEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BancoEntity.dll": {}
+        }
+      },
       "Contexto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -640,6 +650,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BancoEntity": "1.0.0",
           "Entidades": "1.0.0"
         },
         "compile": {
@@ -1818,6 +1829,11 @@
       "type": "project",
       "path": "../Autenticacion/Autenticacion.csproj",
       "msbuildProject": "../Autenticacion/Autenticacion.csproj"
+    },
+    "BancoEntity/1.0.0": {
+      "type": "project",
+      "path": "../BancoEntity/BancoEntity.csproj",
+      "msbuildProject": "../BancoEntity/BancoEntity.csproj"
     },
     "Contexto/1.0.0": {
       "type": "project",

@@ -1,4 +1,5 @@
-﻿using Contexto;
+﻿using BancoEntity;
+using Contexto;
 using Entidades;
 using IntefacesNegocios;
 using Microsoft.EntityFrameworkCore;
@@ -12,33 +13,38 @@ namespace Negocio
         {
             contexto = contextoBD;
         }
-        public IEnumerable<Cuenta> Get()
+        public IEnumerable<CuentaEntity> Get()
         {
             return contexto.Cuentas;
         }
-        public async Task Save(Cuenta Cuenta)
+        public async Task Save(CuentaBE Cuenta)
         {
-            Cuenta.CuentaId = new Guid();
-            contexto.Add(Cuenta);
+            CuentaEntity NuevaCuenta = new CuentaEntity();
+            NuevaCuenta.CuentaId = new Guid();
+            NuevaCuenta.UsuarioId = Cuenta.UsuarioId;
+            NuevaCuenta.NumeroCuenta = Cuenta.NumeroCuenta;
+            NuevaCuenta.MonedaCuenta = (Entidades.Moneda)Cuenta.MonedaCuenta;
+            NuevaCuenta.TipoCuenta = (Entidades.Tipo)Cuenta.TipoCuenta;
+            NuevaCuenta.Linea = Cuenta.Linea;
+            NuevaCuenta.Saldo = Cuenta.Saldo;
+            contexto.Add(NuevaCuenta);
             await contexto.SaveChangesAsync();
         }
-        public Cuenta? GetCuenta(Guid id)
+        public CuentaEntity? GetCuenta(Guid id)
         {
             var CuentaActual = contexto.Cuentas.Include(p => p.Tarjeta).FirstOrDefault();
             return CuentaActual;
         }
-        public async Task Update(Guid id, Cuenta Cuenta)
+        public async Task Update(Guid id, CuentaBE Cuenta)
         {
             var CuentaActual = contexto.Cuentas.Where(p => p.CuentaId == id).FirstOrDefault();
-
             if (CuentaActual != null)
             {
                 CuentaActual.NumeroCuenta = Cuenta.NumeroCuenta;
-                CuentaActual.MonedaCuenta = Cuenta.MonedaCuenta;
-                CuentaActual.TipoCuenta = Cuenta.TipoCuenta;
+                CuentaActual.MonedaCuenta = (Entidades.Moneda)Cuenta.MonedaCuenta;
+                CuentaActual.TipoCuenta = (Entidades.Tipo)Cuenta.TipoCuenta;
                 CuentaActual.Linea = Cuenta.Linea;
                 CuentaActual.Saldo = Cuenta.Saldo;
-
                 await contexto.SaveChangesAsync();
             }
         }
