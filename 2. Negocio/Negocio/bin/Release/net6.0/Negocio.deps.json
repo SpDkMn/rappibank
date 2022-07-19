@@ -490,10 +490,16 @@
       "IntefacesNegocios/1.0.0": {
         "dependencies": {
           "BancoEntity": "1.0.0",
-          "Entidades": "1.0.0"
+          "Entidades": "1.0.0",
+          "POSEntity": "1.0.0"
         },
         "runtime": {
           "IntefacesNegocios.dll": {}
+        }
+      },
+      "POSEntity/1.0.0": {
+        "runtime": {
+          "POSEntity.dll": {}
         }
       }
     }
@@ -805,6 +811,11 @@
       "sha512": ""
     },
     "IntefacesNegocios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "POSEntity/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

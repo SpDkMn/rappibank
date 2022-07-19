@@ -21,3 +21,5 @@ C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\Proyect
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\Negocio\obj\Release\net6.0\ref\Negocio.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\Negocio\bin\Release\net6.0\BancoEntity.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\Negocio\bin\Release\net6.0\BancoEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\Negocio\bin\Release\net6.0\POSEntity.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\Negocio\bin\Release\net6.0\POSEntity.pdb

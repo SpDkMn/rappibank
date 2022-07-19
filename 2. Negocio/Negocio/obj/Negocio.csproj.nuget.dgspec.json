@@ -155,6 +155,9 @@
               "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj": {
                 "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj"
               },
+              "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj": {
+                "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj"
+              },
               "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj": {
                 "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj"
               }
@@ -230,6 +233,64 @@
                 "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj",
+        "projectName": "POSEntity",
+        "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj",
+        "packagesPath": "C:\\Users\\PedroDiaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PedroDiaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {

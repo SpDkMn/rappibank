@@ -651,13 +651,24 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BancoEntity": "1.0.0",
-          "Entidades": "1.0.0"
+          "Entidades": "1.0.0",
+          "POSEntity": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IntefacesNegocios.dll": {}
         },
         "runtime": {
           "bin/placeholder/IntefacesNegocios.dll": {}
+        }
+      },
+      "POSEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/POSEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POSEntity.dll": {}
         }
       }
     }
@@ -1849,6 +1860,11 @@
       "type": "project",
       "path": "../IntefacesNegocios/IntefacesNegocios.csproj",
       "msbuildProject": "../IntefacesNegocios/IntefacesNegocios.csproj"
+    },
+    "POSEntity/1.0.0": {
+      "type": "project",
+      "path": "../POSEntity/POSEntity.csproj",
+      "msbuildProject": "../POSEntity/POSEntity.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -16,8 +16,12 @@ C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\Proyect
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\IntefacesNegocios.deps.json
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\IntefacesNegocios.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\IntefacesNegocios.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\BancoEntity.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\Entidades.dll
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\POSEntity.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\Entidades.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\BancoEntity.pdb
+C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\POSEntity.pdb
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\IntefacesNegocios.csproj.AssemblyReference.cache
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\IntefacesNegocios.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\IntefacesNegocios.AssemblyInfoInputs.cache
@@ -28,5 +32,3 @@ C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\Proyect
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\refint\IntefacesNegocios.dll
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\IntefacesNegocios.pdb
 C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\obj\Debug\net6.0\ref\IntefacesNegocios.dll
-C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\BancoEntity.dll
-C:\Users\PedroDiaz\OneDrive - Maria Almenara\Escritorio\NetCore\Proyecto\ProyectoArquitecturaOrientadaAlServicio\2. Negocio\IntefacesNegocios\bin\Debug\net6.0\BancoEntity.pdb

@@ -21,6 +21,16 @@
         "runtime": {
           "bin/placeholder/Entidades.dll": {}
         }
+      },
+      "POSEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/POSEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/POSEntity.dll": {}
+        }
       }
     }
   },
@@ -34,12 +44,18 @@
       "type": "project",
       "path": "../../4. EntidadesBD/Entidades/Entidades.csproj",
       "msbuildProject": "../../4. EntidadesBD/Entidades/Entidades.csproj"
+    },
+    "POSEntity/1.0.0": {
+      "type": "project",
+      "path": "../POSEntity/POSEntity.csproj",
+      "msbuildProject": "../POSEntity/POSEntity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BancoEntity >= 1.0.0",
-      "Entidades >= 1.0.0"
+      "Entidades >= 1.0.0",
+      "POSEntity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -76,6 +92,9 @@
           "projectReferences": {
             "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj": {
               "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\BancoEntity\\BancoEntity.csproj"
+            },
+            "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj": {
+              "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\2. Negocio\\POSEntity\\POSEntity.csproj"
             },
             "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj": {
               "projectPath": "C:\\Users\\PedroDiaz\\OneDrive - Maria Almenara\\Escritorio\\NetCore\\Proyecto\\ProyectoArquitecturaOrientadaAlServicio\\4. EntidadesBD\\Entidades\\Entidades.csproj"
